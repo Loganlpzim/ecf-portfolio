@@ -1710,24 +1710,31 @@ footer {
   footer {
     background-color: #65743A;
     padding-top: 40px;
-    height: 100px; }
+    height: 100px;
+    margin: 0; }
   
   .footer__contents {
-    text-align: center;}
+    text-align: center; }
 }
-  .footer__contact img {
-  display: inline-block;
-  text-align: center;
-  margin-left: 100px;
-  margin-bottom: 10px;
-  max-width: 20px; }
+#footerImg {
+  margin-left: 150px;
+  margin-right: 5px;
+}
 @media screen and (min-width: 1124px) {
   .navbar-toggler {
     text-align: center;
-   }  
+   }
+  .navbar {
+    width: 70%;
+    margin-left: 15%;
+    padding-right: 18%;
+  }  
   .main {
-  width: 100%;
+  width: 70%;
   height: 528px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 15%;
   margin-bottom: 40px;
   background-color: #65743A; }
 
@@ -1761,7 +1768,9 @@ a {
   color: #FFECD1; }
 
 .projects {
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 30px;
   height: 411px;
   margin-bottom: 40px;
   background-color: #65743A; }
@@ -1770,7 +1779,7 @@ a {
   display: inline-block;
   width: 300px;
   height: 290px;
-  padding-left: 15%;
+  padding-left: 5%;
   text-align: center; }
   .projects__box.--tl {
     margin-top: 20px;
@@ -1815,7 +1824,9 @@ a {
   color: #FF7d00; }
 
 .skills {
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 30px;
   height: 365px;
   margin-bottom: 40px;
   background-color: #65743A; }
@@ -1828,7 +1839,9 @@ a {
   text-align: center; }
 
 .contact {
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 30px;
   height: 365px;
   margin-bottom: 40px;
   background-color: #65743A; }
@@ -1841,7 +1854,9 @@ a {
 
 .contact__form {
   display: block;
-  margin: 0 70px; }
+  padding-right: 100px;
+  margin: 0;
+  width: 70%; }
 
 .contact__form__box {
   width: 33%;
@@ -1853,7 +1868,7 @@ a {
 
 .contact__form__btn {
   width: 190px;
-  margin: 10px 780px;
+  margin: 10px 660px;
   border-radius: 6px;
   border: 1px #FFECD1 solid;
   background-color: #65743A;
@@ -1863,5 +1878,12 @@ a {
   display: inline-block;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 10px;
-  max-width: 20px; }
+  margin-bottom: 20px;
+  max-width: 30px; }
+  #footerImg {
+    margin-left: 48%;
+    margin-right: 5px;
+  }
+footer {
+  width: 100%;
+  height: 150px;}
